@@ -1,0 +1,29 @@
+h1{
+    color: rgb(25, 180, 27);
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(7, 7, 7);
+}
+.container{
+    margin: 100px;
+    width: 80%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(rgb(250, 239, 239), green, blue);
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover{
+    width: 25%;
+}
